@@ -1,0 +1,71 @@
+#main-header{
+text-align: center;
+color: white;
+font-weight: 300;
+}
+
+.jumbotron{
+    color: black;
+    background-image: url(header.jpeg);
+    background-size: cover;
+}
+
+.container{
+    color: red;
+    margin-top: 50px;
+}
+
+#headshots{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sub-header{
+    text-align: center;
+    color: white;
+    margin-left: 25px;
+    font-weight: 200;
+}
+
+.body-header{
+    font-weight: bold;
+}
+
+.mission{
+    font-weight: 300;
+}
+
+.bio-drop{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-cont{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    padding: 12px 16px;
+    z-index: 1;
+    width: 500px;
+}
+
+.bio-drop:hover .dropdown-cont{
+    display: block;
+    margin-right: 50px;
+}
+
+.bio{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.bio-text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.textbox{
+    width: 500px;
+}
