@@ -1,0 +1,19 @@
+form {
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.header {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.form-inline {
+    padding-top: 20px;
+}
+
+.submit {
+    padding-left: 10%;
+    padding-top: 20px;
+}
